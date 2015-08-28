@@ -1,0 +1,49 @@
+{% extends 'main.twig' %}
+	
+
+
+{% block content %}    
+    <section class="about">
+   	   	<h3>For bookings please fill in the form below and send us an email:</h3>
+        <div class="form">
+          <form action="" method="post">
+            <fieldset><legend>Personal</legend>
+            <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="name" value="" /></label>
+            <label for="field2"><span>Age</span><input type="number" size="6" name="age" min="16" max="99" value="between 16 and 90"><br></label>
+            <label for="field3"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="email" value="" /></label>
+            <label for="field4"><span>Expected Date <span class="required">*</span></span><input type="date" class="input-field" name="expected_date" value="<?php echo date('Y-m-d');?>" /></label>
+           <label for="field5"><span>Country to visit</span><select name="country_to_visit" class="select-field">
+            <option value="Botswana">Botswana</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Madagasca">Madagasca</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="Zambia">Zambia</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            </select></label>           
+           
+            <label for="field6"><span>Reason for visit</span><select name="reason_for_visit" class="select-field">
+            <option value="Educational">Educational</option>
+            <option value="Business">Busines</option>
+            <option value="Leisure">Leisure</option>
+            </select></label>
+            
+            <label for="field7"><span>Payment Method</span><select name="payment_method" class="select-field">
+            <option value="Paypal">Credit Card</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Telegraphic Transfer">Telegraphic Transfer</option>
+            </select></label>
+            
+            </fieldset>
+            <fieldset><legend>Message</legend>
+            <label for="field8"><span>Message <span class="required">*</span></span><textarea name="msg" class="textarea-field"></textarea></label>
+            <label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
+            </fieldset>          
+            
+          </form>
+  		</div>
+    </section>
+{% endblock content %}
+                             
+       
