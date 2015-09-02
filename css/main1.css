@@ -1,0 +1,434 @@
+
+
+/*************************************
+GENERAL
+************************************/
+
+body {
+  font-family: 'Open-Sans', sans-serif;
+  background-color:00ffff
+  
+}
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-color:#CFF
+}
+
+a {
+  text-decoration:none;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%; 
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+
+/*************************************
+HEADING
+************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+/* logo text */
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: '1942 report', sans-serif;
+  margin: 15px  0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.25em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/*************************************
+NAVIGATION
+************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/*************************************
+FOOTER
+************************************/
+
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #333;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/*************************************
+PAGE PORTFOLIO
+************************************/
+#gallery {
+  margin: 0;
+  padding:0;
+  border: 2px solid #60F;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #e4b42d;
+  color: #bdc3c7;
+  background: #e4b42d;
+  box-shadow: inset 0px 0px 15px #C36;
+  -moz-box-shadow: inset 0px 0px 15px #FFC;
+  -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;S
+  color: #fff;
+  background: #e4b42d;
+  box-shadow: inset 0px 0px 15px #C36;
+  -moz-box-shadow: inset 0px 0px 15px #FFC;
+  -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+ }
+
+
+
+/*************************************
+PAGE RESORT SITES 
+************************************/
+
+
+
+/*************************************
+PAGE: ABOUT US
+************************************/
+
+
+.profile-photo {
+  display: block;
+  max-width: 38%;
+  margin: none;
+  float: left;
+  border-radius: none;
+  padding:inherit;
+}
+
+.about-us{
+	font-size:12px;
+	text-align: justify;
+    text-justify: inter-word;
+	color : #916c05;
+}
+
+.left {
+    float: left;
+    width: 45%;
+}
+
+.right {
+    margin-left: 55%;
+}
+
+<style>
+.address{
+	
+  	max-width: 50%;
+ 	margin-right: auto;
+	margin-left: auto;
+  	border-radius: none;
+  	padding: 0 15px ;
+}
+
+.south { 
+	float:right;
+	width: 20%;
+	font-size:12px;
+	color:#916c05;
+	} 
+
+.zimbabwe { 
+  float: left;
+  width: 20%;
+  font-size:12px;
+  color:#916c05;
+  } 
+
+  .kenya { 
+  margin-left: 45%;
+  width: 20%;
+  font-size:12px;
+  color:#916c05;
+  }
+</style>
+
+/*************************************
+PAGE CONTACT
+************************************/
+<style type="text/css">
+
+.form{
+    max-width: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form label > span{
+    float: left;
+    width: 100px;
+    color: #fff;
+    font-weight: none;
+    font-size: 13px;
+    text-shadow: none;
+}
+.form fieldset{
+    border-radius: 2px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #C9F;
+    padding: 20px;
+    background: #e4b42d;
+    box-shadow: inset 0px 0px 15px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.form fieldset legend{
+    color: #fff;
+    border-top: 1px solid #FFD2D2;
+    border-left: 1px solid #FFD2D2;
+    border-right: 1px solid #FFD2D2;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #916c05;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 12px;
+}
+.form textarea{
+    width:250px;
+    height:100px;
+}
+.form input[type=text],
+.form input[type=date],
+.form input[type=datetime],
+.form input[type=number],
+.form input[type=search],
+.form input[type=time],
+.form input[type=url],
+.form input[type=email],
+.form select, 
+.form textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #FFC2DC;
+    outline: none;
+    color: #bbb;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+    background: #FFEFF6;
+    width:55%;
+	
+}
+.form  input[type=submit],
+.form  input[type=button]{
+    background: #916c05;
+    border: 1px solid #bbb;
+    padding: 5px 15px 5px 15px;
+    color: #FFF;
+    box-shadow: inset -1px -1px 3px #FFD5E7;
+    -moz-box-shadow: inset -1px -1px 3px #FFD5E7;
+    -webkit-box-shadow: inset -1px -1px 3px #FFD5E7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;    
+    font-weight: bold;
+}
+.required{
+    color:blue;
+    font-weight:normal;
+}
+
+</style>
+
+/*************************************
+PAGE SEARCH
+************************************/
+<style>
+#searchbox
+{
+    background-color: #e4b42d;;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    margin: 100px auto 50px;
+    overflow: hidden; /* Clear floats */
+}
+
+#search, 
+#submit {
+    float: left;
+}
+
+#search {
+    padding: 5px 9px;
+    height: 23px;
+    width: 380px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+
+/* ----------------------- */
+
+#submit
+{       
+    background-color: #e4b42d;
+    background-image: linear-gradient(#95d788, #6cbb6b);
+    border-radius: 3px 50px 50px 3px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7eba7c #578e57 #447d43;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: #e4b42d;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+#submit:hover {       
+    background-color: #e4b42d;
+    background-image: linear-gradient(##e4b42d;, #95d788);
+}   
+
+#submit:active {       
+    background: #e4b42d;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
+</style>
+/*************************************
+COLORS
+************************************/
+
+/*  site body */
+body {
+  background: #9FF;
+  color: #333;
+}
+
+/* blue header */
+header {
+  background: #e4b42d;
+  border-color: #009;
+}
+
+/* nav background on mobile */
+nav {
+  background: #599a68;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #916c05;
+}
+
+/* links */
+a {
+  color: #FFF;
+}
+
+/* nav links */
+nav a, vav a:visited {
+  color: #00ffff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #fff;  
+}
+
+
+
